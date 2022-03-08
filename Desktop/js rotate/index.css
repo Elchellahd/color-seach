@@ -1,0 +1,77 @@
+body{
+    background-color: lightgreen;
+
+}
+#int{
+    padding-left: 50px;
+  margin-left: 200px;
+  transition:all ease 2s;
+  
+}
+
+#blue{
+  background-color: blue;
+  margin-right: 50px;
+ 
+}
+#orange{
+  background-color: orange;
+  margin-left: 30px;
+}
+#white{
+  background-color:black;
+  color:white;
+  margin-right: 30px;
+}
+#rotate{
+  background-color:red;
+  margin: 30px;
+}
+div{
+  
+  width:200px;
+  height:200px;
+}  
+
+
+
+.web h1{
+  color:white;
+}
+input{
+  background-color: aqua;
+  color:white;
+  border-radius: 240px;
+  border-color:white;
+  position: absolute;
+
+}
+button{
+  background-color: blue;
+  margin:45px;
+  margin-right: 100px;
+  
+}
+
+h1{
+  color:white;
+  text-align: center;
+  background-color: palevioletred;
+  border-radius: 240px;
+}
+@media screen and (min-width: 420px) {
+  body {
+    background-color: lightgreen;
+
+  }
+  }
+  @media screen and (max-width: 420){
+    input{
+      background-color: black;
+      color:white;
+      border-radius: 240px;
+      border-color:white;
+      position: absolute;
+    
+    }
+  }
